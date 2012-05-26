@@ -1,0 +1,1 @@
+<cflog text="Group: group7, Task 1" file="#application.log["filename"]#" />

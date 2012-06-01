@@ -10,7 +10,7 @@
 	interval="once" 
 	startdate="#now()#" 
 	starttime="#starttime#" 
-	url="http://#application.domain#/demos/demo2/task1.cfm"
+	url="#application.url.full#/demos/demo2/task1.cfm"
 	/>
 
 	<cfoutput>

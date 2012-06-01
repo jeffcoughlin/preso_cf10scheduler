@@ -24,7 +24,7 @@
 			<ul>
 				<li>In the Coldfusion administrator, manually Create a Task called "demo1-t1" to start in 1 minute from now with the following URL:
 					<ul>
-						<li>http://#application.domain#/demos/demo1/task1.cfm</li>
+						<li>#application.url.full#/demos/demo1/task1.cfm</li>
 					</ul>
 				</li>
 				<li>Check back here.  When the task has completed, it will update the log which will be displayed here.</li>

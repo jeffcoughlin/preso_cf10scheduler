@@ -12,7 +12,7 @@
 	interval="once" 
 	startdate="#now()#" 
 	starttime="#starttime#" 
-	url="http://#application.domain#/demos/demo4/task1.cfm"
+	url="#application.url.full#/demos/demo4/task1.cfm"
 	onComplete="demo4-t2:group4:application"
 	/>
 	
@@ -24,7 +24,7 @@
 	interval="once" 
 	startdate="#now()#" 
 	starttime="#starttime#" 
-	url="http://#application.domain#/demos/demo4/task2.cfm"
+	url="#application.url.full#/demos/demo4/task2.cfm"
 	onComplete="demo4-t3:group4:application"
 	/>
 	
@@ -36,7 +36,7 @@
 	interval="once" 
 	startdate="#now()#" 
 	starttime="#starttime#" 
-	url="http://#application.domain#/demos/demo4/task3.cfm"
+	url="#application.url.full#/demos/demo4/task3.cfm"
 	onComplete="demo4-t4:group4:application"
 	/>
 	
@@ -48,7 +48,7 @@
 	interval="once" 
 	startdate="#now()#" 
 	starttime="#starttime#" 
-	url="http://#application.domain#/demos/demo4/task4.cfm"
+	url="#application.url.full#/demos/demo4/task4.cfm"
 	onComplete="demo4-t5:group4:application"
 	/>
 
@@ -60,7 +60,7 @@
 	interval="once" 
 	startdate="#now()#" 
 	starttime="#starttime#" 
-	url="http://#application.domain#/demos/demo4/task5.cfm"
+	url="#application.url.full#/demos/demo4/task5.cfm"
 	/>
 
 	<cfoutput>

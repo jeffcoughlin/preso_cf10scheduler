@@ -9,7 +9,7 @@
 	interval="2" 
 	startdate="#now()#"
 	starttime="#now()#" 
-	url="http://#application.domain#/demos/demo7/task1.cfm"
+	url="#application.url.full#/demos/demo7/task1.cfm"
 	/ >
 
 <!--- CREATE Second Task --->
@@ -21,7 +21,7 @@
 	interval="2" 
 	startdate="#now()#"
 	starttime="#now()#" 
-	url="http://#application.domain#/demos/demo7/task2.cfm"
+	url="#application.url.full#/demos/demo7/task2.cfm"
 	/ >
 	
 	<cfoutput>

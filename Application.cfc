@@ -22,11 +22,13 @@ component {
 	*/
 	public void function applicationReInit() {
 		lock scope="application" timeout="5" type="readonly" {
-			application.domain = "presos.scheduler";
+			application.url.domain = "localhost";
+			application.url.subfolder = "presos/scheduler";
+			application.url.full = "http://#application.url.domain#/#application.url.subfolder#";
 			application.log = { "folder"="/Applications/ColdFusion10/cfusion/logs", "filename"="cf10schedulerdemo", "fileextension"="log" };
 			application.log["fullPath"] = "#application.log["folder"]#/#application.log["filename"]#.#application.log["fileextension"]#";
 			application.runloop = false;
-			application.eventListener.packagePath = "demos.eventListener";			
+			application.eventListener.packagePath = "presos.scheduler.demos.eventListener";			
 		}  
 	}
 

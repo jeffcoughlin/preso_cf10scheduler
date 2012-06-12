@@ -62,7 +62,7 @@
                 </ul>
               </li>
               <li class="divider-vertical"></li>
-              <li<cfif url.file eq "resetdemos"> class="active"</cfif>><a href="index.cfm?file=resetdemos"><i class="icon-share-alt icon-white"></i> Reset Demos</a></li>
+              <li<cfif url.file eq "resetdemos"> class="active"</cfif>><a href="index.cfm?file=resetdemos&reinit=1"><i class="icon-share-alt icon-white"></i> Reset Demos</a></li>
             </ul>
           </div>
         </div>
